@@ -1,9 +1,9 @@
 name 'ectg-elasticsearch'
 maintainer 'Steve Nolen'
 maintainer_email 'technolengy@gmail.com'
-license 'mit'
+license 'apachev2'
 description 'Installs/Configures ectg-elasticsearch'
 long_description 'Installs/Configures ectg-elasticsearch'
-version '0.0.1'
+version '0.0.3'
 
 depends 'elasticsearch'
