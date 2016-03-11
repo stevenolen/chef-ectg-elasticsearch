@@ -1,3 +1,3 @@
 # 0.1.0
 
-Initial release of ectg-elasticsearch
+Initial release of mwser-elasticsearch

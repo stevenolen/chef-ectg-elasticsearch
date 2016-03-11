@@ -1,18 +1,12 @@
 #
-# Cookbook Name:: ectg-elasticsearch
+# Cookbook Name:: mwser-elasticsearch
 # Recipe:: default
 #
 # Copyright (C) 2015 UC Regents
 #
 
 # which es version?
-es_version =
-  case node['fqdn']
-  when 'ectg1.oit.ucla.edu'
-    '1.5.0'
-  else
-    '1.7.2'
-  end
+es_version = '1.7.2'
 
 # some basic package deps. only tested on rhel family.
 %w(tar java-1.7.0-openjdk).each do |pkg|

@@ -14,4 +14,4 @@ platforms:
 
 suites:
   - name: default
-    run_list: ['ectg-elasticsearch::default']
+    run_list: ['mwser-elasticsearch::default']
